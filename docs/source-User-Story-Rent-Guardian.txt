@@ -1,0 +1,509 @@
+USER STORIES RENT GUARDIAN V 1.0
+
+
+Users
+Tenant
+Home Owner
+Service provider
+
+Persona
+Want to
+So that
+User
+Features is always technical solution
+Benefits are always non-technical solutions
+Owner 
+I don’t want to answer lot of questions
+I am relaxed and comfortable 
+Owner
+I want to list properties on Rent Guardian
+So that I have to work less and take less hassle  to find tenant
+Owner
+I want to see the contract, I am signing in 
+So that , I can know what I am digitally signing in the app
+Owner
+I want to download the contract after both party signed.
+So that , I can keep it to myself as a copy
+Owner 
+I want to view properties like tenant 
+As I need to rent properties as well.  
+Owner 
+I want to update the listing . 
+As I need to update some parts of my listing. 
+Owner 
+I want to remove the listing. 
+As I need to remove the listing if the properties get rented on my end.  
+Owner 
+I want to give exact flat number
+So that Agents and tenants can navigate to my exact flat and do not disturb me through recurring  calls for address
+Owner
+I want to give the exact floor No.
+So that the agents and tenants can navigate to my exact floor No and do not disturb me through recurring  calls for address.
+Owner
+I want to give the exact House Name .
+So that the agents and tenants can navigate to my exact House and do not disturb me through recurring  calls for address
+Owner
+I want to give exact House No
+So that the agents and tenants can navigate to my exact House No and do not disturb me through recurring  calls for address
+Owner
+I want to give exact Road No
+So that the agents and tenants can navigate to my exact Road No and do not disturb me through recurring  calls for address
+Owner
+I want to give exact Sub Area
+So that the agents can navigate to my exact Sub Area and tenants can search through Sub Areaand do not disturb me through recurring  calls for address
+Owner
+I want to give exact Area
+So that the agents can navigate to my exact Area and tenants can search through Area and do not disturb me through recurring  calls for address
+Owner
+I want to give exact District
+So that the agents can navigate to my exact District and tenants can search through District and do not disturb me through recurring  calls for address.
+Owner 
+I want to give exact Division
+So that the agents can navigate to my exact Area and tenants can search through the Area and do not disturb me through recurring  calls for address.
+Owner 
+I want to add utility charge and check/tick the charges that are included in it . 
+As I want to remain transparent about the hidden charges in utilities
+Owner 
+I want to rent it to only family/bachelor
+So that I can rent it to my exact preferred group of people
+Owner
+I want to provide the month from which it is going to be vacant
+So, that tenants can move-in , in the required time
+Owner 
+I want to list the exact bedroom count.
+So that the tenants can know about the exact Bedroom count and I do not get disturbed by features of the house.
+Owner 
+I want to list exact washroom count
+So that the tenants can know about the exact washroom count and I do not get disturbed by features of the house. 
+Owner
+I want to list the exact Balcony count. 
+As I don't want to get disturbed due to balcony count and tenants can know about exact balcony count
+Owner 
+I want to list exact House size in sq ft 
+As I don't want to get disturbed due to House size and tenants can know about exact balcony count. 
+Owner
+I want to list if there is any garage. 
+As I don't want to get disturbed due to Garage count and tenants can know about exact Garage. 
+Owner
+I want to list house rules ( gate closed , lift open until ) 
+Tenants get to know house rules beforehand and they can maintain the rules. 
+Owner
+I want to list how many months in advance tenants need to pay without utility charge . 
+So that tenants get to know how many months they need to pay in advance. 
+Owner 
+I want to provide bank details.
+I don’t need to manage payments
+Owner 
+I want to book an appointment for agents to visit 
+So that Agents can visit the house at an appointed time. 
+Owner
+I want to get agent details 
+So that I, with my other tenants and family members, feel safe. 
+Owner
+I don’t know how to operate this app after signing in. 
+So that I can list properties on call 
+Owner
+I want to take a look at the house report to see what needs to be fixed, and if I am going to pay or not and let you guys know if I am going to fix it or ask you guys to fix it and send the payment slip. 
+So that I get to see the house report and know what needs to be fixed . Subsequently, I will let you know if I am going to fix it or not . And If I fix it, I will let you know what I am fixing. And if I don't want to take the hassle of contacting service providers I will let you know and you guys fix it for me and send the payment slip
+Owner 
+I want to let you guys know which ones I will fix . 
+So that, I can let you know what I will be fixing and update the house report
+Owner 
+I want to let you take the responsibility of contacting the service provider and get it fixed. 
+So that you can contact the service providers and get it fixed. 
+Owner 
+I want you to send me the payment slip for any house fixing  
+So that I can pay you guys knowing what expenses were done 
+Owner
+I want to let you guys know that I don’t want to fix anything.
+So that the tenants can see the original house report 
+Owner
+I want you guys to contact me to let me know about the house report, as I don't know how to manage the house report procedure on the app . 
+
+So that I can know what needs to be fixed  let you guys know what I will be fixing. 
+Owner
+I want you guys to contact me as I don't know how to let you guys know what I will be fixing in the app.  
+
+So that I can  let you guys know what I will be fixing. 
+
+Owner
+I want you guys to contact me.
+As I want to let you guys know that you need to take the responsibility to fix it .  
+Owner
+I want you guys to contact me. 
+To send the payment slip to me 
+Owner 
+I want  to pay the house report payments to you on the app. 
+So that I can clear my dues with you 
+Owner
+I want to pay the house report payments to you through call 
+As I want to clear my dues through phone call
+Owner
+I want to pay the house report payments through bank transfer.
+As I want to clear my dues through  bank transfer
+Owner
+I want you guys to contact me . 
+So that I can let you know I won’t be fixing anything
+Owner
+I want to have head tenant and tenant details for a property.
+So that I can know my tenants for a specific property
+Owner
+I want to have tenant’s police verification form for a property 
+So that I can hold their tenants police verification form for a property
+Owner
+I want to know how many amount of money I will be getting as rent.
+So that I can check how much rent I will be receiving 
+Owner
+I want to download the police verification form of tenants for a property . 
+So that I can download the police verification form of their tenants 
+Owner
+I want to complain about a tenant 
+As I want  to complain about tenants
+Owner
+I want to have an ID card as an owner.
+As I want to list properties under that  ID card 
+Owner
+I want to track payments of all tenants of all my properties.  
+So that I can  track payments of the tenants of the properties I listed 
+Owner
+I don't want to go to the app and remove listings if the house gets rented in my end .I want a more easy way through call or push notification.  
+As I want to remove properties through a push notification just to answer yes or no in the notification  or call . 
+Owner
+I want to know if a tenant has issued a problem in the house. 
+As I want  to choose if I agree to pay or not  . 
+Owner 
+I want to stay in the loop if I agree to pay. 
+As I want to track it.
+Owner
+I want to input the payments I did for a house maintenance problem  for a specific property . 
+So that I can track what expenses I made for a specific property/ And we get to know what price he paid to the service provider to match the input with service provider 
+Owner
+I want to contact Rent Guardian directly for Listing for house report issues, for house maintenance issues, for tech related problems. 
+So that I Can contact Rent Guardian directly to track and update problems 
+Owner
+I want to contact Rent Guardian directly for house report issues.(Supervisor)
+So that I can contact Rent Guardian for house report problems
+Owner
+I want to contact Rent Guardian directly for house maintenance issues(Agent).
+So that I can contact Rent Guardian for house maintenance problems
+Owner
+I want to contact Rent Guardian directly for Listing for tech related problems(Supervisor).
+So that I can contact Rent Guardian for tech related problems
+Owner 
+I want to get a detailed house inspection report before tenants move out  if anything gets damaged like tiles broken;  3 days before the tenants move out.
+So that I can Know about the issue or problem
+Owner
+I want to set up a meeting with the tenant  if something is damaged permanently. 
+So that I can  settle issues before tenants move out. 
+Tenant 
+I want to get asked less questions before I see properties. 
+As I don't want to feel overwhelmed
+Tenant 
+I want to search on the basis of location.
+So that I can look for houses in preferred district , division, area and block/sector
+Tenant
+I want to search on the basis of size.
+So that I can look for the house I am getting for. 
+Tenant 
+I want to search on the basis of the month I want the house in.
+So that I get the houses in the month I want in
+Tenant
+I want to search the house on the basis of bedroom count. 
+So that I can look for the houses with exact bedroom count
+Tenant
+I want to search the house on the basis of the exact washroom count.
+So that I can look for houses with the preferred washroom count 
+Tenant
+I want to search on the basis of garage inclusion.  
+So that I can look for houses that has a garage 
+Tenant
+I want to search on the basis of balcony count 
+So that I can look for houses with  balconies
+Tenant
+I want to search on the basis of budget 
+So that I can look for houses within my budget
+Tenant 
+I want to see full screen image 
+As I want to get a full view 
+Tenant
+I want to see the house report.
+As I want to see  the house's condition before moving in .
+Tenant
+I want to see the house rules .
+As I want to determine if I can abide by it or not. 
+Tenant
+I want to see the rent.
+So that I can see if it is suitable for me or not 
+Tenant
+I want to see the utility charge and see what’s included in it .
+As I need to see what is included in it 
+Tenant
+I want to get a 3D virtual tour.
+As I can get a virtual tour of the house
+Tenant
+I want to book an appointment for viewing 
+An appointment with agent will be booked 
+Tenant
+I want to see the properties I visited in my app.
+As I need to share it with my wife, family members  
+Tenant
+I want to get agent details before meeting him 
+As I need to feel secure, and get introduced beforehand. 
+Tenant
+I want to know how many months I need to pay in advance . 
+As I need to plan my finances. 
+Tenant
+I want to proceed with payment.
+So that I can start the renting process
+Tenant
+I want to create a tenant account.(while proceeding with payment). 
+As I need a tenant account to manage my house. 
+Tenant
+I want to verify myself before moving in. 
+So that I get enlisted as a verified tenant
+Tenant
+I want to download the police verification form.
+So that I can download and print it out.
+Tenant
+I want to submit my police verification form before moving in. 
+So that I get to my home and not get into a hassle of submitting my police verification form 
+Tenant
+I want to choose if I need help moving in
+So that I don’t get into the hassle to look for people to help. 
+Tenant
+I want wifi installed of my own choice  before moving in. (Agent)
+So that I get my internet connection pre Installed
+Tenant
+I want to see the wifi plans to get it installed.
+So that I can get it according to my own plan and budget
+Tenant
+I want water filter installed of my own choice before moving in (Agent)
+So that I have accessibility to fresh drinking water after moving in 
+Tenant
+I want to see the water filter prices and choose from it.(Agent)
+So that I can get it according to my budget range
+Tenant
+I want stove of my own choice installed before moving in (Agent)
+So that I don’t have to deal with technicians in the day of moving in and elongate the tasks more
+Tenant
+I want fridge of own choice  before moving in (Agent)
+So that I get fridge of own choice pre installed
+Tenant
+I want lights installed before moving in.(Agents) 
+So that I don't have to take the hassle 
+Tenant 
+I want Cylinder Installed before moving in(Agent) 
+So that I have it installed  
+Tenant
+I want to see how much the cylinders and its installation gas will cost.(2 different cost)
+So that I can get it on my own budget
+Tenant
+I want to see how much I have to pay for cylinder gas per month.
+So that I can plan it. 
+Tenant
+I want to see how much I have to pay for pre- installation.
+So that I can plan it before moving in
+Tenant
+I want to pay the pre installation costs (No pay later for pre installations) on move-in day.
+So that I can clear my dues on move in day
+Tenant
+I want to see the temporary house maids appointed in my area.
+So that I can choose from them.
+Tenant
+I want to see the catering companies available in my area. 
+So that I can get enrolled under a catering service
+Tenant
+I want to see the plans provided by the catering company.
+So that I can choose from it
+Tenant
+I want to post a review about a specific maid that worked in my home.
+So that I can rate them and make others aware
+Tenant 
+I want to order groceries using the app.
+So that I don't have to take the hassle for buying Groceries
+Tenant
+I want to see the products enlisted by the grocery shops.
+So that I can Choose from them 
+Tenant 
+I want the groceries delivered in my house. 
+So that I don't have to go and carry the groceries
+Tenant
+I want to order chicken and which should be included in the groceries. 
+So that I can get the chickens ordered 
+Tenant
+I want the chickens delivered to my house.
+So that I don't have to go and carry chickens
+Tenant
+I want to add a description of the chicken. For example :  in how many pieces it needs to get cut.
+So that I can get it in my own preference
+Tenant
+I want to pay later for groceries.
+So that I can pay it later with rent.   . 
+Tenant
+I want to pay later for Catering.
+So that I can pay it later with rent.
+Tenant
+I want to report maintenance issue
+As I can  stay home and work or study without dealing this 
+Tenant 
+I want to choose if I want the involvement of the owner.
+So that, I can choose if i want to fix it myself  or not. 
+Tenant
+I want to track if the owner agreed to pay or not.
+As I want to see if I need to fix it myself or not 
+Tenant
+ If the owner does not agree , I want to choose to fix the issue by my own cost and track it.
+
+As I may need  to fix the issue through my cost and track it. 
+Tenant
+If the owner agreed to pay , I want to track the whole maintenance issue .
+As I need to get the updates. 
+Tenant
+I want to get service provider details before getting the service from him.
+I will feel secured and relaxed as service provider is verified
+Tenant 
+I want to get an OTP on the app to match with service providers before letting them get into my house 
+ So that my family feels safe
+Tenant
+I want to book an appointment with the service provider for tomorrow or any other day. 
+So that I can book an appointment when I am at home ,if i am not , then  my wife and children will know a service provider will come at the appointed time and feel secured and relaxed as it is a verified technician  
+Tenant
+I want instant support from service provider in 1 hour . 
+So that I get instant support in 1 hour 
+Tenant 
+I want to input the amount of money I used for maintenance issues to keep track of expenses. 
+As I want  to keep track of expenses. 
+
+Tenant
+I want to rate the service provider. 
+As I want good service 
+Tenant
+I want to receive points to redeem discounts  for taking any house maintenance service through Rent Guardian . So that I could place the honest input and I don’t directly get in contract with service providers.
+As I want to place the honest input and I don’t directly get in contract with service providers 
+
+Tenant
+I want to pay later with rent for maintenance issues. 
+As I don't want to have  an additional fee in the middle or end  of month 
+Tenant 
+I always want to see the total fees I have to pay at the end of month 
+As I want to have a proper financial planning
+Tenant
+I want to see how much I paid in advance . 
+As I will need it while moving out . 
+Tenant 
+I want to pay my rent 
+As I need to clear the rent 
+Tenant
+I want to view more properties. 
+As I want to look for other options
+Tenant
+I want to get notified if a new property gets listed in my area . 
+As I want to be the first to see 
+Tenant
+I want to refer a friend 
+As I want to get a discount
+Tenant
+I want to get notified  if owner filed any complaint about me 
+As I want to know the complain details
+Tenant
+I need an ID card 
+As I want to check my history through it 
+Tenant
+I need to list a room as a tenant .
+As I have a room vacant  to rent. 
+Tenant
+I need to list a house as a tenant 
+As I have other properties to rent and I don't want to take hassle 
+Tenant 
+I want to rate the owner 
+As the owners are sometimes rude and annoying
+Tenant 
+I want to rent other houses other than this. 
+As I want to  rent houses for my son or personal purposes 
+Tenant 
+I want to move out. 
+As I need to move out of the house 
+Tenant
+I may need help moving out. 
+AsI may choose help from you moving out 
+Tenant 
+I want to book appointment with agent before moving out for house inspection [ cracked tiles, damaged households, light holders broken or stolen ] 
+To remain transparent with the owner and RentGuardian.  The Agent will get a detailed house inspection and let the owner  know if there are any damaged structures and what to do about it . 
+Tenant (Business improvement)
+I want to know about the damages and keep track of it like house maintenance issues and input for price as agents will give estimates about costs . 
+As I want to Settle disputes before moving out 
+Tenant 
+I want a check in message every month if everything in my house is ok 
+As I want to be feel cared and safe 
+Tenant
+I want to contact Rent Guardian 
+As I want to report any tech related issues
+Tenant 
+I want to transfer ownership to my flatmate 
+As I am moving out I will be able  to transfer ownership
+Service providers
+I want to see if there is any instant work 
+As I can grasp instant work when I am free as a verified worker 
+Service providers
+I want to know what categories their work fall into [ plumbing , electrical, AC, gas , stove ]
+So that I can grasp work according to my expertise 
+Service providers
+I want to see if someone booked an appointment  with me in my area . 
+Can go to work on appointed time 
+Service Providers
+And I want to get reminders if a meeting gets fixed.
+
+So that I don't forget. 
+Service providers
+I want to get notified if someone booked an appointment 
+Will get alerted for work 
+Service providers 
+I want to know their location number name and OTP to match 
+As I Can enter house as a trusted person 
+Service providers 
+I want to give input of the price 
+As I need to match with tenants and give info to rent guardian 
+Service providers 
+I want to see if the work is pay later with rent.
+So that I can choose to accept it.
+Service Provider(Groceries)
+I want to see the list of groceries ordered in the app. 
+So that I can provide it.
+Service Provider(Groceries)
+I want to see the address of the tenant that ordered groceries. 
+So that I can deliver it to their house
+Service Provider(Groceries)
+I want to see if the tenant decided to pay later with rent .
+So that we can know about it
+Service provider(Chicken)
+I want to see the descriptions of how many pieces  the chicken needs to get cut . 
+So that I can deliver it according to preference. 
+Service provider(Chicken)
+I want to see if the tenant decided to pay later with rent .
+So that we know about it.
+Service Provider(Catering)
+I want to create a meal plan for breakfast. 
+So that I can deliver it according to their preference
+Service Provider(Catering)
+I want to create a meal plan for lunch. 
+So that I can deliver it according to their preference
+Service Provider(Catering)
+I want to create a meal plan for dinner.
+So that I can deliver it according to their preference.
+Service Provider(Catering)
+I want to know how many people I will need to provide the catering service to.
+So that I can provide the exact amount
+Service Provider(Catering)
+I want to see the name and  address for the tenants enrolled in my catering system
+So that I can deliver it to their address daily. 
+Service Provider(Catering
+I want to see if the tenant decided to pay later with rent .
+So that we know about it. 
+
+ 
+This is our companies need : 
+Service providers
+I want instant work for all service providers and appointment work to specific service providers[can grasp instant work as well]  based on area 
+Instant work can be grasped by all workers in a 4 km radius and appointments booked can be grasped by specific service providers based on area. 
+
+

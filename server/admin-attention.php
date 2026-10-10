@@ -1,0 +1,16 @@
+<?php
+$sql="SELECT 'appointments' source,a.id,a.kind title,a.status,a.starts_at due_at,a.requested_by account_id,a.assigned_to assigned_id,CASE WHEN a.starts_at<NOW() AND a.status='confirmed' THEN 1 ELSE 0 END overdue FROM appointments a WHERE a.status IN('requested','confirmed')
+UNION ALL SELECT 'maintenance_requests',m.id,m.title,m.status,COALESCE(m.appointment_at,IF(m.urgency='instant',DATE_ADD(m.created_at,INTERVAL 1 HOUR),NULL)),m.requested_by,m.provider_id,CASE WHEN COALESCE(m.appointment_at,IF(m.urgency='instant',DATE_ADD(m.created_at,INTERVAL 1 HOUR),NULL))<NOW() AND m.status IN('approved','assigned','in_progress') THEN 1 ELSE 0 END FROM maintenance_requests m WHERE m.status NOT IN('completed','cancelled') OR (m.status='completed' AND m.cost_confirmed_at IS NULL)
+UNION ALL SELECT 'orders',o.id,o.kind,o.status,o.scheduled_at,o.user_id,o.provider_id,IF(o.scheduled_at<NOW(),1,0) FROM orders o WHERE o.status IN('placed','accepted','delivering')
+UNION ALL SELECT 'documents',d.id,d.original_name,d.status,NULL,d.user_id,NULL,0 FROM documents d WHERE d.status='pending'
+UNION ALL SELECT 'inspections',i.id,i.summary,i.status,NULL,p.owner_id,i.agent_id,0 FROM inspections i JOIN properties p ON p.id=i.property_id WHERE i.status='submitted'
+UNION ALL SELECT 'properties',p.id,p.title,p.status,NULL,p.owner_id,NULL,0 FROM properties p WHERE p.status='pending'
+UNION ALL SELECT 'payments',p.id,p.reference,p.status,NULL,p.user_id,p.reviewed_by,0 FROM payments p WHERE p.status IN('submitted','reviewed')
+UNION ALL SELECT 'support_tickets',s.id,s.subject,s.status,NULL,s.user_id,s.assigned_to,0 FROM support_tickets s WHERE s.status IN('open','in_progress')
+UNION ALL SELECT 'complaints',c.id,c.description,c.status,NULL,c.filed_by,NULL,0 FROM complaints c WHERE c.status IN('open','reviewing')
+UNION ALL SELECT 'tenancy_transfers',t.id,'Head tenancy transfer',t.status,NULL,t.to_user_id,NULL,0 FROM tenancy_transfers t WHERE t.status IN('requested','accepted')
+UNION ALL SELECT 'tenancies',t.id,p.title,t.status,t.move_out_date,t.head_tenant_id,NULL,IF(t.status='notice' AND t.move_out_date<CURDATE(),1,0) FROM tenancies t JOIN properties p ON p.id=t.property_id WHERE t.status IN('pending_verification','ready','notice')";
+$where='1=1';$params=[];$type=(string)($_GET['type']??'');if($type){$where.=' AND q.source=?';$params[]=$type;}if(($_GET['overdue']??'')==='1')$where.=' AND q.overdue=1';$search=trim((string)($_GET['search']??''));if($search!==''){$where.=' AND (q.title LIKE ? OR customer.name LIKE ? OR worker.name LIKE ? OR CAST(q.id AS CHAR)=?)';$params=[...$params,'%'.$search.'%','%'.$search.'%','%'.$search.'%',$search];}
+$base="FROM ($sql) q LEFT JOIN users customer ON customer.id=q.account_id LEFT JOIN users worker ON worker.id=q.assigned_id WHERE $where";$page=max(1,(int)($_GET['page']??1));$offset=($page-1)*25;
+$items=rows("SELECT q.*,customer.name account_name,customer.public_id account_public_id,worker.name assigned_name,worker.phone assigned_phone,worker.public_id assigned_public_id $base ORDER BY q.overdue DESC,q.due_at IS NULL,q.due_at,q.id DESC LIMIT 25 OFFSET $offset",$params);
+$summary=rows("SELECT source,COUNT(*) total,SUM(overdue) overdue FROM ($sql) q GROUP BY source");respond(['items'=>$items,'total'=>(int)one("SELECT COUNT(*) n $base",$params)['n'],'page'=>$page,'summary'=>$summary]);

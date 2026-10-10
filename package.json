@@ -1,0 +1,23 @@
+{
+  "name": "rent-guardian",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "vite --host 127.0.0.1",
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "test": "node --test tests/unit.test.mjs tests/scale.test.mjs tests/production.test.mjs tests/demo-access.test.mjs tests/population-access.test.mjs tests/tour-workflows.test.mjs tests/database-consistency.test.mjs tests/admin-console.test.mjs tests/admin-mutations.test.mjs tests/role-portals.test.mjs",
+    "test:integration": "node --test tests/integration.test.mjs tests/property-media.test.mjs"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "lucide-react": "^0.468.0",
+    "three": "^0.180.0"
+  },
+  "devDependencies": {
+    "vite": "^6.1.0",
+    "@vitejs/plugin-react": "^4.3.4"
+  }
+}

@@ -1,0 +1,3 @@
+const { chromium } = require('C:/Users/ASUS/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+(async()=>{const browser=await chromium.launch({headless:true,channel:"chrome",args:['--enable-webgl','--use-angle=swiftshader']});const page=await browser.newPage({viewport:{width:1440,height:1100}});page.on('pageerror',e=>console.log('ERROR',e.message));await page.goto('http://127.0.0.1:8000');await page.waitForTimeout(3500);console.log((await page.locator('body').innerText()).slice(0,2000));await page.screenshot({path:'storage/desktop-preview.png',fullPage:true});await browser.close();})();
+

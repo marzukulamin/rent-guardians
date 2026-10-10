@@ -1,0 +1,15 @@
+{
+ "17":{"module":"listings","related_tables":"properties,property_utilities,utility_types"},
+ "18":{"module":"listings","related_tables":"properties"},
+ "32":{"module":"inspections","related_tables":"inspections,inspection_rooms,inspection_items"},
+ "52":{"module":"maintenance","related_tables":"maintenance_requests,request_events,notifications"},
+ "53":{"module":"maintenance","related_tables":"maintenance_requests,request_events,notifications"},
+ "73":{"module":"listings","related_tables":"properties"},
+ "74":{"module":"listings","related_tables":"properties,property_utilities,utility_types"},
+ "80":{"module":"payments","related_tables":"tenancies,invoices,invoice_items,payments"},
+ "96":{"module":"services","related_tables":"catalog_products,orders,order_items,invoices,invoice_items"},
+ "111":{"module":"maintenance","related_tables":"maintenance_requests,request_events"},
+ "112":{"module":"maintenance","related_tables":"maintenance_requests,request_events,notifications"},
+ "113":{"module":"maintenance","related_tables":"maintenance_requests,request_events,invoices,invoice_items"},
+ "118":{"module":"maintenance","related_tables":"maintenance_requests,provider_profiles,provider_categories,addresses","implementation_status":"BLOCKED"}
+}

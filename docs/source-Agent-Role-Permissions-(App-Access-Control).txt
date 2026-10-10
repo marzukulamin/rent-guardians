@@ -1,0 +1,106 @@
+Agent Role Permissions (App Access Control)
+This section defines who can do what inside the RentGuardian app. Permissions are strictly role-based to prevent misuse, confusion, or authority overlap.
+
+1️⃣  Field Agent (Campaign / Outreach Only)
+Status: Temporary | Time-bound | Campaign-specific
+CAN DO:
+View assigned campaign area
+View daily checklist
+Fill Campaign Day Checklist Form
+Fill Owner Information Form
+Add owner name & contact number
+Assist owner with app installation (no login access)
+Book request for agent appointment 
+View educational material & scripts
+CANNOT DO:
+Create or edit house reports
+Upload property photos
+View tenant data
+View payments or commissions
+Approve listings
+Communicate with finance
+Handle maintenance
+
+2️⃣ Agent (Core Operations Agent)
+Status: Active | Verified | ID-based
+CAN DO:
+View assigned appointments
+Verify appointment via OTP + visible ID
+Create House Report (full access)
+Upload & tag property photos
+(Future) Create 3D virtual tour
+Submit reports to Supervisor
+Conduct property viewings
+View house report during viewing
+Explain features to tenants
+Guide tenant registration (post-payment)
+Coordinate maintenance & technicians
+Upload maintenance bills
+Coordinate pre-installations (WiFi, filter, stove, fridge, lights, cylinder)
+Confirm move-in presence & fee collection status.
+Handle tenant complaints (first level)
+Perform move-out inspection
+Submit move-out inspection report
+CANNOT DO:
+Approve listings
+Modify rent or owner terms
+Approve payments
+View full financial dashboard
+Remove listings
+
+3️⃣ Property Supervisor / Customer Support
+Status: Permanent | Authority Role
+CAN DO:
+Create & edit property listings
+Book & confirm agent appointments
+Approve or reject house reports
+Communicate with owners & tenants
+Decide repair responsibility (owner / RentGuardian)
+Approve maintenance requests
+Accept & verify maintenance bills
+Choose payment method (instant / rent deduction)
+Approve bank transfer & bKash slips
+Notify finance team
+Remove or pause listings
+Handle escalations
+Approve move-out inspection reports
+Notify owner of permanent damages
+Act as customer support hub
+CANNOT DO:
+Edit financial records directly
+Change commission rules
+
+4️⃣ Finance Team
+Status: Restricted | Audit-focused
+CAN DO:
+View approved payment entries
+Confirm bank & bKash deposits
+Track rent collection
+Generate financial reports
+Track commissions
+CANNOT DO:
+Communicate with tenants or owners
+Edit house reports
+Approve maintenance without supervisor
+
+5️⃣ Admin / System Owner
+Status: Full Authority
+CAN DO:
+Create / suspend users
+Assign roles & permissions
+Modify SOP logic
+Access all data
+Override decisions
+View analytics & growth metrics
+
+🔒 Permission Design Principles
+No role has end-to-end control
+Every critical action requires handoff or approval
+Financial actions are always 2-step verified
+Field Agents are non-operational
+Agents execute, Supervisors decide, Finance confirms
+
+This role-permission structure ensures:
+ ✔ Zero power abuse
+ ✔ Clean accountability
+ ✔ Scalable operations

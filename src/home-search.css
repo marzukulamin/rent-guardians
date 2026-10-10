@@ -1,0 +1,35 @@
+/* Give the primary home search a clear visual anchor. */
+.search-panel{
+ background:linear-gradient(115deg,#153b58,#205d7c);
+ border:1px solid #306f90;
+ border-top:4px solid #f2bd57;
+ border-radius:16px;
+ box-shadow:0 10px 28px #153b5826;
+}
+.search-panel .main-filters{padding:24px;gap:16px;grid-template-columns:1.4fr 1.15fr .95fr 1.15fr auto;align-items:end}
+.search-panel .main-filters>label{padding:0!important;border:0}
+.search-panel .main-filters>label>span{color:#fff;font-weight:600;font-size:13px;letter-spacing:.7px;margin-bottom:10px}
+.search-panel .main-filters>label>span>svg{color:#9edcf0;width:17px;height:17px;flex-shrink:0}
+.search-panel .main-filters select,.search-panel .main-filters input{
+ background:#fff;color:#173c55;border:1px solid #d5e6ee;border-radius:8px;
+ padding:11px 10px;min-height:50px;font-size:16px;line-height:1.4;color-scheme:light;
+}
+.search-panel .main-filters select:focus-visible,.search-panel .main-filters input:focus-visible{outline:3px solid #f2bd57;outline-offset:3px}
+.search-panel .search-button{margin:0;min-height:50px;padding:12px 20px;font-size:16px;font-weight:600;white-space:nowrap;background:#f2bd57;border:1px solid #f2bd57;color:#17354b;box-shadow:0 3px 10px #0b29442b}
+.search-panel .search-button:hover{background:#ffd180;border-color:#ffd180}
+.search-panel .search-button:focus-visible,.search-panel .filter-bottom>button:focus-visible{outline:3px solid #fff;outline-offset:3px}
+.search-panel .filter-bottom{padding:12px 24px;background:#102f453d;border-top:1px solid #ffffff24;border-radius:0 0 12px 12px;gap:16px}
+.search-panel .filter-bottom>span,.search-panel .filter-bottom>button{color:#e0eff6;font-size:14px}
+.search-panel .filter-bottom>span>svg{color:#a9dfda;flex-shrink:0}
+.search-panel .filter-bottom>button{font-weight:500;min-height:44px;white-space:nowrap}
+.search-panel .filter-bottom>button:hover,.search-panel .filter-bottom>button.active{color:#ffd180}
+@media(max-width:1400px){
+ .search-panel .main-filters{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+ .search-panel .search-button{grid-column:1/-1;justify-content:center}
+}
+@media(max-width:760px){
+ .search-panel .main-filters{grid-template-columns:1fr;padding:20px;gap:18px}
+ .search-panel .main-filters select,.search-panel .main-filters input{font-size:17px}
+ .search-panel .filter-bottom{padding:12px 20px;flex-wrap:wrap;gap:6px}
+ .search-panel .filter-bottom>span{max-width:none}
+}

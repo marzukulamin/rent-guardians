@@ -1,0 +1,85 @@
+{
+    "fixture_accounts": 50000,
+    "fixture_invoices": 50000,
+    "fixture_invoice_items": 50000,
+    "fixture_payments": 50000,
+    "balance_check": {
+        "total": "1000.00",
+        "paid": "100.00",
+        "balance": "900.00"
+    },
+    "queries": {
+        "account_first_page": {
+            "ms": 0.39,
+            "rows": 100
+        },
+        "account_last_page": {
+            "ms": 8.68,
+            "rows": 100
+        },
+        "account_search": {
+            "ms": 20.24,
+            "rows": 100
+        },
+        "invoice_page": {
+            "ms": 2.95,
+            "rows": 100
+        },
+        "notification_page": {
+            "ms": 0.36,
+            "rows": 24
+        }
+    },
+    "invoice_explain": [
+        {
+            "id": 1,
+            "select_type": "PRIMARY",
+            "table": "i",
+            "type": "const",
+            "possible_keys": "PRIMARY",
+            "key": "PRIMARY",
+            "key_len": "8",
+            "ref": "const",
+            "rows": "1",
+            "Extra": "Using index"
+        },
+        {
+            "id": 3,
+            "select_type": "SUBQUERY",
+            "table": "payments",
+            "type": "ref",
+            "possible_keys": "invoice_payment_status",
+            "key": "invoice_payment_status",
+            "key_len": "10",
+            "ref": "const,const",
+            "rows": "1",
+            "Extra": "Using index condition"
+        },
+        {
+            "id": 2,
+            "select_type": "SUBQUERY",
+            "table": "invoice_items",
+            "type": "ref",
+            "possible_keys": "invoice_id",
+            "key": "invoice_id",
+            "key_len": "8",
+            "ref": "const",
+            "rows": "1",
+            "Extra": ""
+        }
+    ],
+    "notification_explain": [
+        {
+            "id": 1,
+            "select_type": "SIMPLE",
+            "table": "notifications",
+            "type": "ref",
+            "possible_keys": "notification_user_history,notification_unread",
+            "key": "notification_user_history",
+            "key_len": "8",
+            "ref": "const",
+            "rows": "24",
+            "Extra": "Using where"
+        }
+    ]
+}

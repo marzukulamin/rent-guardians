@@ -1,0 +1,13 @@
+{
+  "base": "http://127.0.0.1:8000",
+  "requests": 200,
+  "concurrency": 20,
+  "failures": 0,
+  "errors": {},
+  "duration_ms": 4886,
+  "requests_per_second": 41,
+  "p50_ms": 482,
+  "p95_ms": 545,
+  "p99_ms": 570,
+  "note": "Public read smoke test, not 50,000 simultaneous users or authenticated write capacity."
+}

@@ -1,0 +1,16 @@
+.rg-entrance-film{position:fixed;inset:0;width:100vw;height:100dvh;max-width:none;max-height:none;margin:0;padding:0;border:0;background:#151627;color:#fff;z-index:10000;overflow:hidden}
+.rg-entrance-film::backdrop{background:#151627}
+.rg-entrance-film,.rg-entrance-film::backdrop{transition:opacity .45s ease}
+.rg-entrance-film.rg-film-reveal,.rg-entrance-film.rg-film-reveal::backdrop{opacity:0}
+.rg-entrance-film video{display:block;width:100%;height:100%;object-fit:cover;object-position:center}
+.rg-film-skip{position:absolute;right:max(24px,env(safe-area-inset-right));top:max(24px,env(safe-area-inset-top));display:flex;align-items:center;gap:10px;padding:12px 18px;min-height:44px;border:1px solid #ffffff65;border-radius:24px;background:#153b58dc;color:white;font:500 13px Poppins,sans-serif;cursor:pointer}
+.rg-film-skip:focus-visible,.rg-hero-play:focus-visible{outline:3px solid #43caff;outline-offset:4px}
+.discovery-banner .banner-visual.rg-film-visual{right:0;top:0;width:48%;height:100%;overflow:hidden}
+.rg-hero-film{position:relative;width:100%;height:100%;min-height:270px;background:#d6e7ee}
+.rg-hero-film video,.rg-hero-film>img{display:block;width:100%;height:100%;position:absolute;inset:0;object-fit:cover;object-position:43% center}
+.rg-hero-film:after{content:'';position:absolute;inset:0;pointer-events:none;background:linear-gradient(90deg,#e8f3fd 0%,#e8f3fd00 23%)}
+.rg-hero-caption{position:absolute;bottom:16px;left:30px;z-index:1;color:#fff;background:#153b58b8;padding:5px 10px;border-radius:12px;font:400 10px Poppins,sans-serif}
+.rg-hero-play{position:absolute;right:16px;bottom:12px;z-index:1;display:flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:50%;background:#153b58d9;color:white;cursor:pointer}
+.rg-hero-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:17px}
+.rg-hero-actions .btn{font-size:11px;padding:10px 14px}
+@media(max-width:760px){.discovery-banner .banner-visual.rg-film-visual{display:block;position:relative;right:auto;top:auto;width:100%;height:210px;flex:none}.discovery-banner:has(.rg-film-visual){display:flex;flex-direction:column}.discovery-banner:has(.rg-film-visual) .banner-copy{flex:auto;width:100%}.rg-hero-film{min-height:210px}.rg-hero-film:after{background:linear-gradient(180deg,#e8f3fd,transparent 18%)}.rg-hero-caption{left:18px}.discovery-banner:has(.rg-film-visual) .banner-number{display:none}.rg-film-skip{top:16px;right:16px}}

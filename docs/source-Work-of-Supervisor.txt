@@ -1,0 +1,27 @@
+Work of Property Supervisor or Customer Support:
+
+Take the listing of properties on a call. 
+Books the appointment for an agent on call.
+Confirms the appointment by calling the owner again if done on the app.
+Update the listing of properties on call.
+Let the agents know about the listing.
+Approves the property listing after the agent uploads the photos.
+Save the data of each property on our data system for later listing.
+Accepts House report from agent.
+Reviews the House Report from the Agent.
+Call the Owner and confirm which ones are going to get fixed. 
+Confirms with the owner if they want us to fix it or not. Or if he doesn't want to fix it at all. 
+If we fix it, let him know we are gonna send the bill to him.
+Let the agent know that we have to fix the house report issues and to send the bill to him/her (supervisor).
+Confirm with the owner if he wants to pay the bill now or we should deduct it from house rent. 
+Accept payment of house report issues through call. (Through Bank Transfer or bkash)
+Let the finance team know about any payments. 
+ Remove the listing on call.
+Let the owner know if there is a maintenance problem in the house and confirm if he is going to fix it or not.
+Let the agents know that tenants are moving out and advise him to do the house inspection report. 
+ Updates the house inspection report while tenants are moving out.. 
+Review the house inspection report and approve it. 
+Let the owner know if there are any permanent damages and send him the house inspection report. 
+Work as a customer support for both Tenant and Owner . 
+Report the tech team about Tech related problems. 
+Report the Tenant related problems to Agents. 

@@ -1,0 +1,807 @@
+[
+  {
+    "persona": "Owner",
+    "want_to": "I don’t want to answer lot of questions",
+    "benefit": "I am relaxed and comfortable"
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I want to list properties on Rent Guardian",
+    "benefit": "So that I have to work less and take less hassle  to find tenant"
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I want to see the contract, I am signing in",
+    "benefit": "So that , I can know what I am digitally signing in the app"
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I want to download the contract after both party signed.",
+    "benefit": "So that , I can keep it to myself as a copy"
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I want to view properties like tenant",
+    "benefit": "As I need to rent properties as well."
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I want to update the listing .",
+    "benefit": "As I need to update some parts of my listing."
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I want to remove the listing.",
+    "benefit": "As I need to remove the listing if the properties get rented on my end."
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I want to give exact flat number",
+    "benefit": "So that Agents and tenants can navigate to my exact flat and do not disturb me through recurring  calls for address"
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I want to give the exact floor No.",
+    "benefit": "So that the agents and tenants can navigate to my exact floor No and do not disturb me through recurring  calls for address."
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I want to give the exact House Name .",
+    "benefit": "So that the agents and tenants can navigate to my exact House and do not disturb me through recurring  calls for address"
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I want to give exact House No",
+    "benefit": "So that the agents and tenants can navigate to my exact House No and do not disturb me through recurring  calls for address"
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I want to give exact Road No",
+    "benefit": "So that the agents and tenants can navigate to my exact Road No and do not disturb me through recurring  calls for address"
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I want to give exact Sub Area",
+    "benefit": "So that the agents can navigate to my exact Sub Area and tenants can search through Sub Areaand do not disturb me through recurring  calls for address"
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I want to give exact Area",
+    "benefit": "So that the agents can navigate to my exact Area and tenants can search through Area and do not disturb me through recurring  calls for address"
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I want to give exact District",
+    "benefit": "So that the agents can navigate to my exact District and tenants can search through District and do not disturb me through recurring  calls for address."
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I want to give exact Division",
+    "benefit": "So that the agents can navigate to my exact Area and tenants can search through the Area and do not disturb me through recurring  calls for address."
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I want to add utility charge and check/tick the charges that are included in it .",
+    "benefit": "As I want to remain transparent about the hidden charges in utilities"
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I want to rent it to only family/bachelor",
+    "benefit": "So that I can rent it to my exact preferred group of people"
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I want to provide the month from which it is going to be vacant",
+    "benefit": "So, that tenants can move-in , in the required time"
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I want to list the exact bedroom count.",
+    "benefit": "So that the tenants can know about the exact Bedroom count and I do not get disturbed by features of the house."
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I want to list exact washroom count",
+    "benefit": "So that the tenants can know about the exact washroom count and I do not get disturbed by features of the house."
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I want to list the exact Balcony count.",
+    "benefit": "As I don't want to get disturbed due to balcony count and tenants can know about exact balcony count"
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I want to list exact House size in sq ft",
+    "benefit": "As I don't want to get disturbed due to House size and tenants can know about exact balcony count."
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I want to list if there is any garage.",
+    "benefit": "As I don't want to get disturbed due to Garage count and tenants can know about exact Garage."
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I want to list house rules ( gate closed , lift open until )",
+    "benefit": "Tenants get to know house rules beforehand and they can maintain the rules."
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I want to list how many months in advance tenants need to pay without utility charge .",
+    "benefit": "So that tenants get to know how many months they need to pay in advance."
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I want to provide bank details.",
+    "benefit": "I don’t need to manage payments"
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I want to book an appointment for agents to visit",
+    "benefit": "So that Agents can visit the house at an appointed time."
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I want to get agent details",
+    "benefit": "So that I, with my other tenants and family members, feel safe."
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I don’t know how to operate this app after signing in.",
+    "benefit": "So that I can list properties on call"
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I want to take a look at the house report to see what needs to be fixed, and if I am going to pay or not and let you guys know if I am going to fix it or ask you guys to fix it and send the payment slip.",
+    "benefit": "So that I get to see the house report and know what needs to be fixed . Subsequently, I will let you know if I am going to fix it or not . And If I fix it, I will let you know what I am fixing. And if I don't want to take the hassle of contacting service providers I will let you know and you guys fix it for me and send the payment slip"
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I want to let you guys know which ones I will fix .",
+    "benefit": "So that, I can let you know what I will be fixing and update the house report"
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I want to let you take the responsibility of contacting the service provider and get it fixed.",
+    "benefit": "So that you can contact the service providers and get it fixed."
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I want you to send me the payment slip for any house fixing",
+    "benefit": "So that I can pay you guys knowing what expenses were done"
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I want to let you guys know that I don’t want to fix anything.",
+    "benefit": "So that the tenants can see the original house report"
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I want you guys to contact me to let me know about the house report, as I don't know how to manage the house report procedure on the app .",
+    "benefit": "So that I can know what needs to be fixed  let you guys know what I will be fixing."
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I want you guys to contact me as I don't know how to let you guys know what I will be fixing in the app.",
+    "benefit": "So that I can  let you guys know what I will be fixing."
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I want you guys to contact me.",
+    "benefit": "As I want to let you guys know that you need to take the responsibility to fix it ."
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I want you guys to contact me.",
+    "benefit": "To send the payment slip to me"
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I want  to pay the house report payments to you on the app.",
+    "benefit": "So that I can clear my dues with you"
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I want to pay the house report payments to you through call",
+    "benefit": "As I want to clear my dues through phone call"
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I want to pay the house report payments through bank transfer.",
+    "benefit": "As I want to clear my dues through  bank transfer"
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I want you guys to contact me .",
+    "benefit": "So that I can let you know I won’t be fixing anything"
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I want to have head tenant and tenant details for a property.",
+    "benefit": "So that I can know my tenants for a specific property"
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I want to have tenant’s police verification form for a property",
+    "benefit": "So that I can hold their tenants police verification form for a property"
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I want to know how many amount of money I will be getting as rent.",
+    "benefit": "So that I can check how much rent I will be receiving"
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I want to download the police verification form of tenants for a property .",
+    "benefit": "So that I can download the police verification form of their tenants"
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I want to complain about a tenant",
+    "benefit": "As I want  to complain about tenants"
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I want to have an ID card as an owner.",
+    "benefit": "As I want to list properties under that  ID card"
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I want to track payments of all tenants of all my properties.",
+    "benefit": "So that I can  track payments of the tenants of the properties I listed"
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I don't want to go to the app and remove listings if the house gets rented in my end .I want a more easy way through call or push notification.",
+    "benefit": "As I want to remove properties through a push notification just to answer yes or no in the notification  or call ."
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I want to know if a tenant has issued a problem in the house.",
+    "benefit": "As I want  to choose if I agree to pay or not  ."
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I want to stay in the loop if I agree to pay.",
+    "benefit": "As I want to track it."
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I want to input the payments I did for a house maintenance problem  for a specific property .",
+    "benefit": "So that I can track what expenses I made for a specific property/  And we get to know what price he paid to the service provider to match the input with service provider"
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I want to contact Rent Guardian directly for Listing for house report issues, for house maintenance issues, for tech related problems.",
+    "benefit": "So that I Can contact Rent Guardian directly to track and update problems"
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I want to contact Rent Guardian directly for house report issues.(Supervisor)",
+    "benefit": "So that I can contact Rent Guardian for house report problems"
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I want to contact Rent Guardian directly for house maintenance issues(Agent).",
+    "benefit": "So that I can contact Rent Guardian for house maintenance problems"
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I want to contact Rent Guardian directly for Listing for tech related problems(Supervisor).",
+    "benefit": "So that I can contact Rent Guardian for tech related problems"
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I want to get a detailed house inspection report before tenants move out  if anything gets damaged like tiles broken;  3 days before the tenants move out.",
+    "benefit": "So that I can Know about the issue or problem"
+  },
+  {
+    "persona": "Owner",
+    "want_to": "I want to set up a meeting with the tenant  if something is damaged permanently.",
+    "benefit": "So that I can  settle issues before tenants move out."
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to get asked less questions before I see properties.",
+    "benefit": "As I don't want to feel overwhelmed"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to search on the basis of location.",
+    "benefit": "So that I can look for houses in preferred district , division, area and block/sector"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to search on the basis of size.",
+    "benefit": "So that I can look for the house I am getting for."
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to search on the basis of the month I want the house in.",
+    "benefit": "So that I get the houses in the month I want in"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to search the house on the basis of bedroom count.",
+    "benefit": "So that I can look for the houses with exact bedroom count"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to search the house on the basis of the exact washroom count.",
+    "benefit": "So that I can look for houses with the preferred washroom count"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to search on the basis of garage inclusion.",
+    "benefit": "So that I can look for houses that has a garage"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to search on the basis of balcony count",
+    "benefit": "So that I can look for houses with  balconies"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to search on the basis of budget",
+    "benefit": "So that I can look for houses within my budget"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to see full screen image",
+    "benefit": "As I want to get a full view"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to see the house report.",
+    "benefit": "As I want to see  the house's condition before moving in ."
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to see the house rules .",
+    "benefit": "As I want to determine if I can abide by it or not."
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to see the rent.",
+    "benefit": "So that I can see if it is suitable for me or not"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to see the utility charge and see what’s included in it .",
+    "benefit": "As I need to see what is included in it"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to get a 3D virtual tour.",
+    "benefit": "As I can get a virtual tour of the house"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to book an appointment for viewing",
+    "benefit": "An appointment with agent will be booked"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to see the properties I visited in my app.",
+    "benefit": "As I need to share it with my wife, family members"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to get agent details before meeting him",
+    "benefit": "As I need to feel secure, and get introduced beforehand."
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to know how many months I need to pay in advance .",
+    "benefit": "As I need to plan my finances."
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to proceed with payment.",
+    "benefit": "So that I can start the renting process"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to create a tenant account.(while proceeding with payment).",
+    "benefit": "As I need a tenant account to manage my house."
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to verify myself before moving in.",
+    "benefit": "So that I get enlisted as a verified tenant"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to download the police verification form.",
+    "benefit": "So that I can download and print it out."
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to submit my police verification form before moving in.",
+    "benefit": "So that I get to my home and not get into a hassle of submitting my police verification form"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to choose if I need help moving in",
+    "benefit": "So that I don’t get into the hassle to look for people to help."
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want wifi installed of my own choice  before moving in. (Agent)",
+    "benefit": "So that I get my internet connection pre Installed"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to see the wifi plans to get it installed.",
+    "benefit": "So that I can get it according to my own plan and budget"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want water filter installed of my own choice before moving in (Agent)",
+    "benefit": "So that I have accessibility to fresh drinking water after moving in"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to see the water filter prices and choose from it.(Agent)",
+    "benefit": "So that I can get it according to my budget range"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want stove of my own choice installed before moving in (Agent)",
+    "benefit": "So that I don’t have to deal with technicians in the day of moving in and elongate the tasks more"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want fridge of own choice  before moving in (Agent)",
+    "benefit": "So that I get fridge of own choice pre installed"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want lights installed before moving in.(Agents)",
+    "benefit": "So that I don't have to take the hassle"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want Cylinder Installed before moving in(Agent)",
+    "benefit": "So that I have it installed"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to see how much the  cylinders  and its  installation  gas  will cost.(2 different cost)",
+    "benefit": "So that I can get it on my own budget"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to see how much I have to pay for cylinder gas per month.",
+    "benefit": "So that I can plan it."
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to see how much I have to pay for pre- installation.",
+    "benefit": "So that I can plan it before moving in"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to pay the pre installation costs (No pay later for pre installations) on move-in day.",
+    "benefit": "So that I can clear my dues on move in day"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to see the temporary house maids appointed in my area.",
+    "benefit": "So that I can choose from them."
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to see the catering companies available in my area.",
+    "benefit": "So that I can get enrolled under a catering service"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to see the plans provided by the catering company.",
+    "benefit": "So that I can choose from it"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to post a review about a specific maid that worked in my home.",
+    "benefit": "So that I can rate them and make others aware"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to order groceries using the app.",
+    "benefit": "So that I don't have to take the hassle for buying Groceries"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to see the products enlisted by the grocery shops.",
+    "benefit": "So that I can Choose from them"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want the groceries delivered in my house.",
+    "benefit": "So that I don't have to go and carry the groceries"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to order chicken and which should be included in the groceries.",
+    "benefit": "So that I can get the chickens ordered"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want the chickens delivered to my house.",
+    "benefit": "So that I don't have to go and carry chickens"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to add a description of the chicken. For example :  in how many pieces it needs to get cut.",
+    "benefit": "So that I can get it in my own preference"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to pay later for groceries.",
+    "benefit": "So that I can pay it later with rent.   ."
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to pay later for Catering.",
+    "benefit": "So that I can pay it later with rent."
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to report maintenance issue",
+    "benefit": "As I can  stay home and work or study without dealing this"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to choose if I want the involvement of the owner.",
+    "benefit": "So that, I can choose if i want to fix it myself  or not."
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to track if the owner agreed to pay or not.",
+    "benefit": "As I want to see if I need to fix it myself or not"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "If the owner does not agree , I want to choose to fix the issue by my own cost and track it.",
+    "benefit": "As I may need  to fix the issue through my cost and track it."
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "If the owner agreed to pay , I want to track the whole maintenance issue .",
+    "benefit": "As I need to get the updates."
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to get service provider details before getting the service from him.",
+    "benefit": "I will feel secured and relaxed as service provider is verified"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to get an OTP on the app to match with service providers before letting them get into my house",
+    "benefit": "So that my family feels safe"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to book an appointment with the service provider for tomorrow or any other day.",
+    "benefit": "So that I can book an appointment when I am at home ,if i am not , then  my wife and children will know a service provider will come at the appointed time and feel secured and relaxed as it is a verified technician"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want instant support from service provider in 1 hour .",
+    "benefit": "So that I get instant support in 1 hour"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to input the amount of money I used for maintenance issues to keep track of expenses.",
+    "benefit": "As I want  to keep track of expenses."
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to rate the service provider.",
+    "benefit": "As I want good service"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to receive points to redeem discounts  for taking any house maintenance service through Rent Guardian . So that I could place the honest input and I don’t directly get in contract with service providers.",
+    "benefit": "As I want to place the honest input and I don’t directly get in contract with service providers"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to pay later with rent for maintenance issues.",
+    "benefit": "As I don't want to have  an additional fee in the middle or end  of month"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I  always  want to see the total fees I have to pay at the end of month",
+    "benefit": "As I want to have a proper financial planning"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to see how much I paid in advance .",
+    "benefit": "As I will need it while moving out ."
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to pay my rent",
+    "benefit": "As I need to clear the rent"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to view more properties.",
+    "benefit": "As I want to look for other options"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to get notified if a new property gets listed in my area .",
+    "benefit": "As I want to be the first to see"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to refer a friend",
+    "benefit": "As I want to get a discount"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to get notified  if owner filed any complaint about me",
+    "benefit": "As I want to know the complain details"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I need an ID card",
+    "benefit": "As I want to check my history through it"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I need to list a room as a tenant .",
+    "benefit": "As I have a room vacant  to rent."
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I need to list a house as a tenant",
+    "benefit": "As I have other properties to rent and I don't want to take hassle"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to rate the owner",
+    "benefit": "As the owners are sometimes rude and annoying"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to rent other houses other than this.",
+    "benefit": "As I want to  rent houses for my son or personal purposes"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to move out.",
+    "benefit": "As I need to move out of the house"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I may need help moving out.",
+    "benefit": "AsI may choose help from you moving out"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to book appointment with agent before moving out for house inspection [ cracked tiles, damaged households, light holders broken or stolen ]",
+    "benefit": "To remain transparent with the owner and RentGuardian.  The Agent will get a detailed house inspection and let the owner  know if there are any damaged structures and what to do about it ."
+  },
+  {
+    "persona": "Tenant (Business improvement)",
+    "want_to": "I want to know about the damages and keep track of it like house maintenance issues and input for price as agents will give estimates about costs .",
+    "benefit": "As I want to Settle disputes before moving out"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want a check in message every month if everything in my house is ok",
+    "benefit": "As I want to be feel cared and safe"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to contact Rent Guardian",
+    "benefit": "As I want to report any tech related issues"
+  },
+  {
+    "persona": "Tenant",
+    "want_to": "I want to transfer ownership to my flatmate",
+    "benefit": "As I am moving out I will be able  to transfer ownership"
+  },
+  {
+    "persona": "Service providers",
+    "want_to": "I want to see if there is any instant work",
+    "benefit": "As I can grasp instant work when I am free as a verified worker"
+  },
+  {
+    "persona": "Service providers",
+    "want_to": "I want to know what categories their work fall into [ plumbing , electrical, AC, gas , stove ]",
+    "benefit": "So that I can grasp work according to my expertise"
+  },
+  {
+    "persona": "Service providers",
+    "want_to": "I want to see if someone booked an appointment  with me in my area .",
+    "benefit": "Can go to work on appointed time"
+  },
+  {
+    "persona": "Service Providers",
+    "want_to": "And I want to get reminders if a meeting gets fixed.",
+    "benefit": "So that I don't forget."
+  },
+  {
+    "persona": "Service providers",
+    "want_to": "I want to get notified if someone booked an appointment",
+    "benefit": "Will get alerted for work"
+  },
+  {
+    "persona": "Service providers",
+    "want_to": "I want to know their location number name and OTP to match",
+    "benefit": "As I Can enter house as a trusted person"
+  },
+  {
+    "persona": "Service providers",
+    "want_to": "I want to give input of the price",
+    "benefit": "As I need to match with tenants and give info to rent guardian"
+  },
+  {
+    "persona": "Service providers",
+    "want_to": "I want to see if the work is pay later with rent.",
+    "benefit": "So that I can choose to accept it."
+  },
+  {
+    "persona": "Service Provider(Groceries)",
+    "want_to": "I want to see the list of groceries ordered in the app.",
+    "benefit": "So that I can provide it."
+  },
+  {
+    "persona": "Service Provider(Groceries)",
+    "want_to": "I want to see the address of the tenant that ordered groceries.",
+    "benefit": "So that I can deliver it to their house"
+  },
+  {
+    "persona": "Service Provider(Groceries)",
+    "want_to": "I want to see if the tenant decided to pay later with rent .",
+    "benefit": "So that we can know about it"
+  },
+  {
+    "persona": "Service provider(Chicken)",
+    "want_to": "I want to see the descriptions of how many pieces  the chicken needs to get cut .",
+    "benefit": "So that I can deliver it according to preference."
+  },
+  {
+    "persona": "Service provider(Chicken)",
+    "want_to": "I want to see if the tenant decided to pay later with rent .",
+    "benefit": "So that we know about it."
+  },
+  {
+    "persona": "Service Provider(Catering)",
+    "want_to": "I want to create a meal plan for breakfast.",
+    "benefit": "So that I can deliver it according to their preference"
+  },
+  {
+    "persona": "Service Provider(Catering)",
+    "want_to": "I want to create a meal plan for lunch.",
+    "benefit": "So that I can deliver it according to their preference"
+  },
+  {
+    "persona": "Service Provider(Catering)",
+    "want_to": "I want to create a meal plan for dinner.",
+    "benefit": "So that I can deliver it according to their preference."
+  },
+  {
+    "persona": "Service Provider(Catering)",
+    "want_to": "I want to know how many people I will need to provide the catering service to.",
+    "benefit": "So that I can provide the exact amount"
+  },
+  {
+    "persona": "Service Provider(Catering)",
+    "want_to": "I want to see the name and  address for the tenants enrolled in my catering system",
+    "benefit": "So that I can deliver it to their address  daily."
+  },
+  {
+    "persona": "Service Provider(Catering",
+    "want_to": "I want to see if the tenant decided to pay later with rent .",
+    "benefit": "So that we know about it."
+  },
+  {
+    "persona": "Service providers",
+    "want_to": "I want instant work for all service providers and appointment work to specific service providers[can grasp instant work as well]  based on area",
+    "benefit": "Instant work can be grasped by all workers in a 4 km radius and appointments booked can be grasped by specific service providers based on area."
+  }
+]

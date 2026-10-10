@@ -1,0 +1,10 @@
+node_modules/
+dist/
+storage/
+server/config.local.php
+server/config.local.php
+tools/design-skill/
+tools/*.zip
+.agents/
+.codex/
+*.log

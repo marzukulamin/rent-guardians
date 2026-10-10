@@ -1,0 +1,56 @@
+# Starting template; requires Nginx, PHP-FPM, TLS certificates and Linux paths.
+# Validate with nginx -t. Tune budgets/worker counts from staging measurements.
+limit_req_zone $binary_remote_addr zone=rg_api:20m rate=30r/s;
+limit_req_zone $binary_remote_addr zone=rg_auth:10m rate=2r/s;
+server {
+ listen 443 ssl;
+ server_name YOUR_HOST;
+ ssl_certificate /etc/ssl/YOUR_HOST/fullchain.pem;
+ ssl_certificate_key /etc/ssl/YOUR_HOST/privkey.pem;
+ root /srv/rent-guardian/dist;
+ index index.html;
+ client_max_body_size 12m;
+ limit_req_status 429;
+ gzip on;
+ gzip_types application/javascript application/json text/css image/svg+xml;
+ location /assets/ {
+  try_files $uri =404;
+  add_header Cache-Control "public, max-age=31536000, immutable";
+ }
+ location = /api/login {
+  limit_req zone=rg_auth burst=10 nodelay;
+  client_max_body_size 1m;
+  include fastcgi_params;
+  fastcgi_param SCRIPT_FILENAME /srv/rent-guardian/server/api.php;
+  fastcgi_pass unix:/run/php/rent-guardian.sock;
+ }
+ location = /api/register {
+  limit_req zone=rg_auth burst=10 nodelay;
+  client_max_body_size 1m;
+  include fastcgi_params;
+  fastcgi_param SCRIPT_FILENAME /srv/rent-guardian/server/api.php;
+  fastcgi_pass unix:/run/php/rent-guardian.sock;
+ }
+ location /api/ {
+  limit_req zone=rg_api burst=60 nodelay;
+  client_max_body_size 1m;
+  include fastcgi_params;
+  fastcgi_param SCRIPT_FILENAME /srv/rent-guardian/server/api.php;
+  fastcgi_pass unix:/run/php/rent-guardian.sock;
+ }
+ location /files/ {
+  limit_req zone=rg_api burst=60 nodelay;
+  include fastcgi_params;
+  fastcgi_param SCRIPT_FILENAME /srv/rent-guardian/server/files.php;
+  fastcgi_pass unix:/run/php/rent-guardian.sock;
+ }
+ location = /health/ready {
+  # Adjust to the actual load-balancer network; keep private.
+  allow 127.0.0.1;
+  deny all;
+  include fastcgi_params;
+  fastcgi_param SCRIPT_FILENAME /srv/rent-guardian/server/health.php;
+  fastcgi_pass unix:/run/php/rent-guardian.sock;
+ }
+ location / { try_files $uri /index.html; add_header Cache-Control "no-cache"; }
+}
