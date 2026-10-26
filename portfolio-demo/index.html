@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#102330" />
+  <meta name="description" content="Explore Rent Guardians through an interactive fictional demo of home discovery and rental workflows." />
+  <title>Rent Guardians — Interactive Demo</title>
+  <link rel="icon" type="image/png" href="./assets/brand-monogram.png" />
+  <link rel="stylesheet" href="./demo.css" />
+  <script src="./demo.js" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <a class="brand" href="#explore" aria-label="Rent Guardians demo home"><img src="./assets/brand-monogram.png" alt="" /><span>Rent <b>Guardians</b></span></a>
+      <div class="demo-pill"><span class="live-dot"></span> INTERACTIVE DEMO</div>
+      <nav aria-label="Main navigation">
+        <p class="nav-label">EXPLORE</p>
+        <a class="nav-item active" href="#explore" data-view="explore"><span>⌕</span> Find a home</a>
+        <a class="nav-item" href="#saved" data-view="saved"><span>♡</span> Saved homes <em id="savedCount">0</em></a>
+        <p class="nav-label">YOUR SPACE</p>
+        <a class="nav-item" href="#workspace" data-view="workspace"><span>▦</span> Role workspace</a>
+        <a class="nav-item" href="#services" data-view="services"><span>✦</span> Services</a>
+      </nav>
+      <div class="sidebar-foot"><div class="support-card"><span>✳</span><strong>A home. A little peace of mind.</strong><p>See how Rent Guardians supports the journey from searching to settling in.</p></div><small>Fictional data · browser-only preview</small></div>
+    </aside>
+    <div class="main-shell">
+      <header class="topbar"><div class="topbar-left"><button class="menu-button" id="menuButton" aria-label="Toggle navigation">☰</button><span>Workspace</span><span class="slash">/</span><strong id="pageTitle">Find a home</strong></div><div class="topbar-right"><span class="topbar-demo">PORTFOLIO PREVIEW</span><label class="role-picker">Explore as <select id="roleSelect" aria-label="Explore as a role"><option value="tenant">Tenant</option><option value="owner">Owner</option><option value="agent">Agent</option><option value="supervisor">Supervisor</option><option value="provider">Provider</option><option value="finance">Finance</option><option value="field_agent">Field agent</option><option value="admin">Admin</option></select></label><div class="avatar" id="avatar">T</div></div></header>
+      <main id="content" tabindex="-1"></main>
+      <footer><span>✳ Rent Guardians <small>Your Safety Is Our System</small></span><span>Bangladesh · Interactive fictional demo</span></footer>
+    </div>
+  </div>
+  <dialog id="detailDialog" class="detail-dialog"><button class="dialog-close" id="closeDialog" aria-label="Close details">×</button><div id="detailContent"></div></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

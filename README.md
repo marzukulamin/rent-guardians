@@ -1,5 +1,11 @@
 # Rent Guardian
 
+## Public portfolio demo
+
+The `portfolio-demo/` folder is a standalone interactive preview built from fictional sample listings and workflows. Visitors can search homes, save favourites, inspect details, request a sample viewing, try sample services, and switch between eight role workspaces. Demo actions stay in each visitor's browser and do not reach the PHP API or a database. It is a product preview, not a place to submit real rental requests or payments.
+
+Run `npm run build:demo` to prepare `demo-dist/` for Netlify. The root `netlify.toml` sets that build and publish directory. The full application still requires the PHP API and MariaDB described below.
+
 A local rental operations web app built in `E:\RENT GUARDIANS APP`, based on all 161 rows extracted from **User Story Rent Guardian .docx**, plus your PRD, role permissions, house inspection specification, business model and brand guide.
 
 The master implementation request is **partially completed**. See [the measured implementation report](docs/implementation-report.md), [all 161 audited stories](docs/story-coverage.md), and [current test results](docs/verification.md) for exact scope and unfinished work. The latest update adds readable portal typography, private listing drafts and review, property-photo management, address privacy, paginated search, and stricter tenancy/advance-payment checks.

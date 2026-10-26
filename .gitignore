@@ -1,7 +1,8 @@
 node_modules/
 dist/
+demo-dist/
+.netlify/
 storage/
-server/config.local.php
 server/config.local.php
 tools/design-skill/
 tools/*.zip
