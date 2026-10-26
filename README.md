@@ -4,7 +4,7 @@
 
 The `portfolio-demo/` folder is a standalone interactive preview built from fictional sample listings and workflows. Visitors can search homes, save favourites, inspect details, request a sample viewing, try sample services, and switch between eight role workspaces. Demo actions stay in each visitor's browser and do not reach the PHP API or a database. It is a product preview, not a place to submit real rental requests or payments.
 
-Live demo: https://rent-guardians-portfolio-demo.lovelysong16.chatgpt.site
+Live demo: Netlify deployment pending.
 
 Run `npm run build:demo` to prepare `demo-dist/` for Netlify. The root `netlify.toml` sets that build and publish directory. The full application still requires the PHP API and MariaDB described below.
 
